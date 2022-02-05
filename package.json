@@ -1,7 +1,10 @@
 {
   "dependencies": {
     "@concretecms/bedrock": "^1.1.3",
-    "laravel-mix": "^6.0.41"
+    "animate.css": "^3.7.2",
+    "laravel-mix": "^6.0.41",
+    "owl.carousel": "^2.3.4",
+    "simple-parallax-js": "^5.6.2"
   },
   "scripts": {
     "development": "mix",
