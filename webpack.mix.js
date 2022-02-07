@@ -12,5 +12,6 @@ mix.webpackConfig({
 mix.setPublicPath('../concrete5/application/themes/flintstone');
 
 mix
-    .sass('assets/scss/main.scss', 'css/main.css')
+    .sass('assets/scss/skins/default/main.scss', 'css/skins/default.css')
+    .sass('assets/scss/skins/wilma/main.scss', 'css/skins/wilma.css')
     .js('assets/js/main.js', 'js/main.js');
