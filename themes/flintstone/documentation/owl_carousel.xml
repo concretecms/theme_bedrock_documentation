@@ -1,0 +1,88 @@
+<concrete5-cif version="1.0">
+    <area name="Main">
+        <blocks>
+            <block type="core_theme_documentation_breadcrumb" name="">
+                <style>
+                    <backgroundColor/>
+                    <backgroundRepeat/>
+                    <backgroundSize/>
+                    <backgroundPosition/>
+                    <borderWidth/>
+                    <borderColor/>
+                    <borderStyle/>
+                    <borderRadius/>
+                    <baseFontSize/>
+                    <alignment/>
+                    <textColor/>
+                    <linkColor/>
+                    <paddingTop/>
+                    <paddingBottom/>
+                    <paddingLeft/>
+                    <paddingRight/>
+                    <marginTop/>
+                    <marginBottom/>
+                    <marginLeft/>
+                    <marginRight/>
+                    <rotate/>
+                    <boxShadowHorizontal/>
+                    <boxShadowVertical/>
+                    <boxShadowBlur/>
+                    <boxShadowSpread/>
+                    <boxShadowColor/>
+                    <customClass>mt-5</customClass>
+                    <customID/>
+                    <customElementAttribute/>
+                    <hideOnExtraSmallDevice/>
+                    <hideOnSmallDevice/>
+                    <hideOnMediumDevice/>
+                    <hideOnLargeDevice/>
+                </style>
+            </block>
+            <block type="content" name="">
+                <data table="btContentLocal">
+                    <record>
+                        <content><![CDATA[<h1>Owl Carousel</h1>
+
+<p class="lead">Our flintstone theme makes use of Owl Carousel for its Image Slider. Check its documentation for customization options.</p>
+]]></content>
+                    </record>
+                </data>
+            </block>
+            <block type="image_slider" name="" custom-container-settings="1">
+                <data table="btImageSlider">
+                    <record>
+                        <navigationType><![CDATA[2]]></navigationType>
+                        <timeout><![CDATA[4000]]></timeout>
+                        <speed><![CDATA[500]]></speed>
+                        <noAnimate><![CDATA[0]]></noAnimate>
+                        <pause><![CDATA[0]]></pause>
+                        <maxWidth><![CDATA[0]]></maxWidth>
+                    </record>
+                </data>
+                <data table="btImageSliderEntries">
+                    <record>
+                        <cID><![CDATA[0]]></cID>
+                        <fID>{ccm:export:file:fred.jpg}</fID>
+                        <linkURL><![CDATA[]]></linkURL>
+                        <internalLinkCID><![CDATA[0]]></internalLinkCID>
+                        <sortOrder><![CDATA[0]]></sortOrder>
+                    </record>
+                    <record>
+                        <cID><![CDATA[0]]></cID>
+                        <fID>{ccm:export:file:wilma.jpg}</fID>
+                        <linkURL><![CDATA[]]></linkURL>
+                        <internalLinkCID><![CDATA[0]]></internalLinkCID>
+                        <sortOrder><![CDATA[1]]></sortOrder>
+                    </record>
+                    <record>
+                        <cID><![CDATA[0]]></cID>
+                        <fID>{ccm:export:file:dino.gif}</fID>
+                        <linkURL><![CDATA[]]></linkURL>
+                        <internalLinkCID><![CDATA[0]]></internalLinkCID>
+                        <sortOrder><![CDATA[2]]></sortOrder>
+                    </record>
+                </data>
+            </block>
+        </blocks>
+    </area>
+</concrete5-cif>
