@@ -1,0 +1,10 @@
+/*!
+ * simpleParallax.min - simpleParallax is a simple JavaScript library that gives your website parallax animations on any images or videos, 
+ * @date: 20-08-2020 14:0:14, 
+ * @version: 5.6.2,
+ * @link: https://simpleparallax.com/
+ */
+
+/*! Magnific Popup - v1.1.0 - 2016-02-20
+* http://dimsemenov.com/plugins/magnific-popup/
+* Copyright (c) 2016 Dmitry Semenov; */

@@ -9,7 +9,7 @@ mix.webpackConfig({
     }
 });
 
-mix.setPublicPath('../concrete5/application/themes/flintstone');
+mix.setPublicPath('themes/flintstone');
 
 mix
     .sass('assets/scss/skins/default/main.scss', 'css/skins/default.css')
