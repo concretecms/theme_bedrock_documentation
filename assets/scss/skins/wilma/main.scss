@@ -1,5 +1,3 @@
+@import "customizable-variables";
 @import "variables";
-
-@import "~@concretecms/bedrock/assets/bedrock/scss/frontend";
-
-@import "../../features/imagery";
+@import "../../common";
