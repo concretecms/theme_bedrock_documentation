@@ -1,0 +1,16 @@
+// Bedrock Lightbox
+@import '@concretecms/bedrock/assets/imagery/scss/frontend/lightbox/lightbox';
+
+// Bedrock Gallery
+@import '@concretecms/bedrock/assets/imagery/scss/frontend/gallery/gallery';
+
+// Bedrock Hero Image
+@import '@concretecms/bedrock/assets/imagery/scss/frontend/hero-image';
+
+// Owl Carousel
+@import "imagery/vendor/animate";
+@import "imagery/vendor/owl.carousel";
+@import "imagery/vendor/owl.theme.default";
+
+// Theme customizations
+@import "imagery/hero-image";

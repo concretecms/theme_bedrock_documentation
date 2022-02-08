@@ -1,8 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Fredoka+One);
 @import url(//fonts.googleapis.com/css2?family=Bellota+Text:wght@400;700&display=swap);
 
-$light-blue: #8bb2ff;
-
 $theme-colors: (
         "primary": $primary,
         "secondary": $secondary,
@@ -15,10 +13,5 @@ $custom-colors: (
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
-$headings-font-family: "Fredoka One";
-$headings-color: $light-blue;
-$headings-font-weight: 400;
-
-$font-family-base: "Bellota Text";
 $font-weight-base: 500;
 $font-size-root: 20px;

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<styles version="2.0" lang="scss">
+    <webfonts>
+        <preset identifier="default">
+            <font type="google" name="Fredoka One" />
+            <font type="google" name="Bellota Text" />
+        </preset>
+        <preset identifier="wilma">
+            <font type="google" name="Fredoka One" />
+            <font type="google" name="Bellota Text" />
+        </preset>
+    </webfonts>
+    <set name="Base Colors">
+        <style name="Primary" variable="primary" type="color"/>
+        <style name="Secondary" variable="secondary" type="color"/>
+        <style name="Light" variable="light" type="color"/>
+    </set>
+    <set name="Theme Custom Colors">
+        <style name="Fun" variable="fun" type="color"/>
+    </set>
+    <set name="Body">
+        <style name="Background" variable="body-bg" type="color"/>
+        <style name="Container Margin-Y" variable="container-margin-y" type="size"/>
+        <style name="Headings" variable="headings" type="type"/>
+        <style name="Base Font Family" variable="font-family-base" type="font-family"/>
+    </set>
+</styles>
