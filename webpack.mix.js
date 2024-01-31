@@ -11,6 +11,10 @@ mix.webpackConfig({
 
 mix.setPublicPath('themes/flintstone');
 
+mix.options({
+    processCssUrls: false
+});
+
 mix
     .sass('themes/flintstone/css/presets/default/main.scss', 'css/skins/default.css')
     .sass('themes/flintstone/css/presets/wilma/main.scss', 'css/skins/wilma.css')

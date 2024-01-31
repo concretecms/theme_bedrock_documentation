@@ -15,3 +15,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 $font-weight-base: 500;
 $font-size-root: 20px;
+
+// Set this to relative here, which is then preserved by Laravel mix
+// Since processCssUrls is set to false. Then this variable is overwritten by
+// Concrete 9.2.5 to be root of the theme directory, wherever it may reside.
+$concrete-theme-path: '../../' !default;
